@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <script>
+      /*const myArray = [10, 20, 30];
+      console.log(myArray)
+      console.log(myArray[1])
+      myArray[0] = 99
+      console.log(myArray)
+
+      myArray2 = [1, 'hello', true, {name: 'socks', number: 2}, [1,2]]
+      console.log(myArray2)
+      //Array.isArray
+
+      myArray.push(100);
+      console.log(myArray);
+
+      myArray.splice(1, 2)
+      console.log(myArray)
+
+      let i = 1;
+      while(i<=10) {
+        console.log(i);
+        i++;
+      }
+      for (let i = 1; i<=5 ; i++) {
+        console.log(i)
+      }
+
+      let randomNumber = 0;
+      while(randomNumber < 0.5) {
+        randomNumber = Math.random();
+        console.log(randomNumber);
+      }*/
+      /*
+      const todoList = [
+        'make',
+        'wash',
+        'watch'
+      ];
+      for (let i = 0; i < todoList.length; i++)
+      {
+        console.log(todoList[i]);
+      }*/
+      /*
+      const nums = [3, 4, 3];
+      let total = 0;
+      for(let i=0;i<nums.length;i++) {
+        total+=nums[i];
+      }
+      console.log(total)
+
+      const numsDoubled = [];
+      for(let i =0;i<nums.length;i++) {
+        const num = nums[i];
+        numsDoubled.push(num*2)
+      }
+      console.log(numsDoubled);*/
+      /*
+      const array1 = [1, 2, 3]
+      const array2 = array1.slice();
+      array2.push(5);
+      console.log(array1);
+      console.log(array2);
+
+      const [firstValue, secondValue] = [1, 2, 3];
+
+      for (let i = 1; i<=10 ; i++)
+      {
+        if (i%3===0)
+        {
+          continue
+        }
+        if (i===8)
+        {
+          break;
+        }        
+        console.log(i)
+      }
+      let i = 1;
+      while (i <= 10)
+      {
+        
+        console.log(i)
+        i++
+      }*/
+      function doubleArray(nums) {
+        const numsDoubled = [];
+        for(let i =0;i<nums.length;i++) {
+          const num = nums[i];
+          numsDoubled.push(num*2)
+        }
+        return numsDoubled;
+      }
+      console.log(doubleArray([1, 4, 6]))
+    </script>
+  </body>
+</html>
